@@ -2,8 +2,6 @@ package nlp.lm;
 import java.util.*;
 import java.io.*;
 
-// TODO: modify functions to have unigram, bigram, and trigram versions
-
 /**
  * A language learning model with lambda smoothing that supports unigram, bigram, and trigram-based calculations.
  */

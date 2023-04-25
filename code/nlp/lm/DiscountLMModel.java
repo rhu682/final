@@ -1,7 +1,7 @@
 /*
  * Rohan Huang
  * CS159
- * Assignment 2
+ * NOTE: This is a template from assign 2. It has not yet been modified for trigram use.
  */
 
 package nlp.lm;
