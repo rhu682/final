@@ -1,0 +1,22 @@
+-------------------
+Training
+-------------------
+a a b b
+a c a b
+b a b a
+-------------------
+Processed to have <UNK> and start/end tags:
+<s> <UNK> a <UNK> b </s>
+<s> a <UNK> a b </s>
+<s> b a b a </s>
+
+-------------------
+Testing
+-------------------
+a b a a c a d (test2)
+-------------------
+Processed to have <UNK> and start/end tags:
+<s> a b a a <UNK> a <UNK> </s>
+
+LambdaLM log probability with lambda 0.1: -6.08798
+LambdaLM perplexity with lambda 0.1: 4.7472
